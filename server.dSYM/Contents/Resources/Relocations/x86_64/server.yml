@@ -1,0 +1,13 @@
+---
+triple:          'x86_64-apple-darwin'
+binary-path:     server
+relocations:
+  - { offsetInCU: 0x26, offset: 0x26, size: 0x8, addend: 0x0, symName: _err_quit, symObjAddr: 0x0, symBinAddr: 0x100003960, symSize: 0x40 }
+  - { offsetInCU: 0x41, offset: 0x41, size: 0x8, addend: 0x0, symName: _err_quit, symObjAddr: 0x0, symBinAddr: 0x100003960, symSize: 0x40 }
+  - { offsetInCU: 0x93, offset: 0x93, size: 0x8, addend: 0x0, symName: _readn, symObjAddr: 0x40, symBinAddr: 0x1000039A0, symSize: 0xA0 }
+  - { offsetInCU: 0xF3, offset: 0xF3, size: 0x8, addend: 0x0, symName: _writen, symObjAddr: 0xE0, symBinAddr: 0x100003A40, symSize: 0x80 }
+  - { offsetInCU: 0x153, offset: 0x153, size: 0x8, addend: 0x0, symName: _readline, symObjAddr: 0x160, symBinAddr: 0x100003AC0, symSize: 0xC8 }
+  - { offsetInCU: 0x26, offset: 0x202, size: 0x8, addend: 0x0, symName: _echo, symObjAddr: 0x0, symBinAddr: 0x100003B90, symSize: 0x120 }
+  - { offsetInCU: 0x82, offset: 0x25E, size: 0x8, addend: 0x0, symName: _echo, symObjAddr: 0x0, symBinAddr: 0x100003B90, symSize: 0x120 }
+  - { offsetInCU: 0xD3, offset: 0x2AF, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x120, symBinAddr: 0x100003CB0, symSize: 0x1E6 }
+...
